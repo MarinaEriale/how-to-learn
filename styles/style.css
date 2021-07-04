@@ -8,7 +8,7 @@
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
   position: relative;
-  }
+}
 
 .header {
   height: 100vh;
@@ -18,7 +18,7 @@
   display: flex;
   position: relative;
   background-color: #f2f2f2;
-  }
+}
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
@@ -79,7 +79,7 @@
   justify-content:space-between;
   width: 80%;
   display: flex;
-  }
+}
 
 .two-columns__brif {
   line-height: 1.2;
@@ -96,7 +96,7 @@
   font-weight: normal;
   width: 80%;
   min-width: 784px;
-  }
+}
 
 .two-columns__paragraph {
   margin:0 auto 30px;
@@ -106,7 +106,7 @@
   margin: 0 auto;
 }
 
-.two_columns__paragraph_span-accent {
+.two_columns__span-accent {
   font-weight: bold;
 }
 
@@ -187,6 +187,7 @@
   margin: 70px auto 0 auto;
   text-align: center;
 }
+
 .feynman__link {
   line-height: 51px;
   font-size: 36px;
@@ -197,7 +198,6 @@
   top: 50%;
   text-decoration: none;
 }
-
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
@@ -251,8 +251,7 @@
 .footer {
   min-height: 350px;
   background-color: #1f1f1f;
-
-  }
+}
 
 .footer__columns {
   justify-content:space-between;
@@ -263,7 +262,7 @@
   margin: 0 auto 0 auto;
   display: flex;
   flex-basis: 711px;
-
+  min-height: 250px;
   }
 
 .footer__author {
@@ -274,7 +273,7 @@
   font-size: 18px;
   font-weight: normal;
   margin: 0;
-  }
+}
 
 .logo_place_footer {
   width: 183px;
